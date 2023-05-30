@@ -26,8 +26,8 @@ selectors = {
     "likes": ("button.vote-yes", "data-total-vote"),
     "dislikes": ("button.vote-no", "data-total-vote"),
     "content": ("div.user-post__text",),
-    "cons": ("div.review-feature__title--positives ~ div.review-feature__item", None, True),
-    "pros": ("div.review-feature__title--negatives ~ div.review-feature__item", None, True),
+    "cons": ("div.review-feature__title--negatives ~ div.review-feature__item", None, True),
+    "pros": ("div.review-feature__title--positives ~ div.review-feature__item", None, True),
 }
 
 product_code = input("Podaj kod produktu: ")
